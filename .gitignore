@@ -1,0 +1,50 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# SQLite and other local database files
+*.sqlite3
+*.db
+*.sqlite
+
+# Environment folders
+env/
+venv/
+*/env/
+*/venv/
+stock_market_env/
+
+# VS Code and editor settings
+.vscode/
+*.code-workspace
+
+# Qodo (AI context/history)
+.qodo/
+
+# MacOS system files
+.DS_Store
+
+# Logs and debug files
+*.log
+
+# Streamlit cache
+.streamlit/
+
+# Ignore any local CSV or personal data files
+CSVNepse/
+*.csv
+
+# Ignore model weights or large artifacts (optional)
+*.h5
+*.pkl
+*.joblib
+
+# Ignore app credentials if any
+*.env
+.env
+.env.*
+.qodo

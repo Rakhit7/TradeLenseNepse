@@ -1,4 +1,7 @@
-import streamlit as sl
+import streamlit
+
+
+ipip install -r requirements.txtstreamlit run streamlit.pymport streamlit as sl
 from auth.auth_manager import validate_user, save_user  # Ensure proper imports
 from stock_analysis.my_streamlit import main_dashboard, contact_form  # Import main_dashboard and contact_form
 

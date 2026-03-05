@@ -113,9 +113,15 @@ def analyze_stock(csv_path, forecast_days=180, lookback=30):
     price_gain = (last_predicted_price - current_price) / current_price * 100
 
     if trend == "Bullish" and risk == "Low Risk" and forecast_trend == "Upward" and price_gain >= 5:
-        decision_message = "✅ This stock is likely a good investment (Bullish trend, Low risk, upward forecast)."
+        decision_message = (
+            "✅ This stock is likely a good investment (Bullish trend, Low risk, upward forecast). "
+            "(Note: This is not a financial advice. The model evaluates based on historical data trends, risk assessment, and forecast predictions.)"
+        )
     else:
-        decision_message = "⚠️ Investment not recommended based on current trend, risk, or forecast reliability."
+        decision_message = (
+            "⚠️ Investment not recommended based on current trend, risk, or forecast reliability. "
+            "(Note: This is not a financial advice. The model evaluates based on historical data trends, risk assessment, and forecast predictions.)"
+        )
 
     # Return graphs and evaluation metrics
     return fig1, fig2, fig3, fig4, fig5, decision_message, mae, rmse, r2

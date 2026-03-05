@@ -8,6 +8,7 @@ import requests
 import yagmail  # Import yagmail for email functionality
 import plotly.express as px  # Import Plotly for interactive charts
 
+
 # --- Load Config ---
 def load_config():
     """Load the configuration file."""
@@ -30,6 +31,7 @@ def load_lottie_url(url: str):
     if response.status_code != 200:
         return None
     return response.json()
+
 
 # --- MAIN DASHBOARD ---
 def main_dashboard(sector_to_stocks):

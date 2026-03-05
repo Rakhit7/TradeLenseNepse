@@ -25,3 +25,4 @@ def validate_user(username, password):
     if username in users and bcrypt.checkpw(password.encode(), users[username].encode()):
         return True
     return False
+

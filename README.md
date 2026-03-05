@@ -9,7 +9,7 @@ You can also register/login and send messages through a sidebar contact form.
 
 
 
-![screenshot](screenshots/landingpage.png)  
+![screenshot](https://github.com/Rakhit7/TradeLenseNepse/blob/1de8ff9f00b7b5977b85d8a9618b6d28f614842d/landing.png)
 
 
 ---

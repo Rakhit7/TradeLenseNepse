@@ -25,17 +25,17 @@ sector_to_stocks = {
         "Manjushree Finance Limited": os.path.join(DATA_DIR, "Finance(ManjushreeFinanceLimited).csv")
     },
     "Hotel & Tourism": {
-        "CGH": "/Users/rakhit/Desktop/YEAR 3/TradeLenseNepse/CSVNepse/Hotel&Tourism(CGH).csv",
-        "SHL": "/Users/rakhit/Desktop/YEAR 3/TradeLenseNepse/CSVNepse/Hotel&Tourism(SHL).csv",
-        "TRH": "/Users/rakhit/Desktop/YEAR 3/TradeLenseNepse/CSVNepse/Hotel&Tourism(TRH).csv"
+        "CGH": os.path.join(DATA_DIR, "Hotel&Tourism(CGH).csv"),
+        "SHL": os.path.join(DATA_DIR, "Hotel&Tourism(SHL).csv"),
+        "TRH": os.path.join(DATA_DIR, "Hotel&Tourism(TRH).csv")
     },
     "Hydropower": {
-        "API": "/Users/rakhit/Desktop/YEAR 3/TradeLenseNepse/CSVNepse/Hydropower(API).csv",
-        "CHCL": "/Users/rakhit/Desktop/YEAR 3/TradeLenseNepse/CSVNepse/Hydropower(CHCL).csv",
-        "SAHAS": "/Users/rakhit/Desktop/YEAR 3/TradeLenseNepse/CSVNepse/Hydropower(SAHAS).csv"
+        "API": os.path.join(DATA_DIR, "Hydropower(API).csv"),
+        "CHCL": os.path.join(DATA_DIR, "Hydropower(CHCL).csv"),
+        "SAHAS": os.path.join(DATA_DIR, "Hydropower(SAHAS).csv")
     },
     "Insurance": {
-        "NLICL": "/Users/rakhit/Desktop/YEAR 3/TradeLenseNepse/CSVNepse/Insurance(NLICL).csv"
+        "NLICL": os.path.join(DATA_DIR, "Insurance(NLICL).csv")
     },
     "Investment": {
         "CIT": os.path.join(DATA_DIR, "Investment(CIT).csv"),

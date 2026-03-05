@@ -35,8 +35,9 @@ stock_market_env/
 .streamlit/
 
 # Ignore any local CSV or personal data files
-CSVNepse/
-*.csv
+# (tracked for deployment – remove line if you want them committed)
+# CSVNepse/
+#*.csv
 
 # Ignore model weights or large artifacts (optional)
 *.h5

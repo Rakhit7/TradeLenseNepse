@@ -1,4 +1,6 @@
-Greetings. This is a project I created as to see and analyse the accuracy of various models and to see if in fact they can make accurate prediction in real world markets. 
+##Greetings. This is a project I created as to see and analyse the accuracy of various models and to see if in fact they can make accurate prediction in real world markets. 
+
+---
 
 # TradeLensNepse – NEPSE Stock‑Price Predictor
 

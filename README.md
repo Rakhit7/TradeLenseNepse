@@ -1,11 +1,15 @@
+Greetings. This is a project I created as to see and analyse the accuracy of various models and to see if in fact they can make accurate prediction in real world markets. 
+
 # TradeLensNepse – NEPSE Stock‑Price Predictor
 
 A Streamlit dashboard that lets you browse historical data for Nepal Stock
 Exchange (NEPSE) listed companies, see interactive charts and a 6‑month
-LSTM‑based forecast, and get a simple “buy / don’t buy” recommendation.  
+LSTM‑based forecast, and get a simple “buy/don’t buy” recommendation.  
 You can also register/login and send messages through a sidebar contact form.
 
-![screenshot](screenshots/landing.png)  
+
+
+![screenshot](screenshots/landingpage.png)  
 
 
 ---
